@@ -1,5 +1,4 @@
 version: 2
-
 sources:
   - name: erp
     description: Banco réplica do erp da northwind.
@@ -13,12 +12,10 @@ sources:
             tests:
               - unique
               - not_null
-      
       - name: products
-
       - name: categories
-
       - name: suppliers
+      - name: shippers
 
      
        
